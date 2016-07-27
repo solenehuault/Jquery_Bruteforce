@@ -11,14 +11,16 @@ Le concept de ce challenge est le suivant:
 
 Vous disposez au sein d'un fichier dico.txt un ensemble de mot de passe possibles pour hacker mon application. 
 Ce fichier se trouve à deux endroits : 
-	- http://raspberrypi.local/exercices/js_bruteforcing/data/dico.txt
-	- http://docusland.fr/code-academie/js_bruteforce/dico.txt 
+
+ * http://raspberrypi.local/exercices/js_bruteforcing/data/dico.txt
+ * http://docusland.fr/code-academie/js_bruteforce/dico.txt 
 
 Vous devrez réaliser un appel ajax afin de lire ce fichier, et de tester l'ensemble des mots de passe.
 
 Les appels devront être réalisés sur mon site à l'url suivante : 
-	- http://raspberrypi.local/exercices/js_bruteforcing/
-	- http://docusland.fr/code-academie/js_bruteforce/ 		
+
+ * http://raspberrypi.local/exercices/js_bruteforcing/
+ * http://docusland.fr/code-academie/js_bruteforce/ 		
 
 Un paramètre est attendu `password` contenant le mot de passe associé
 
