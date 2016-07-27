@@ -1,7 +1,9 @@
 #### Jquery_Bruteforce
 ===
 Votre mission si vous l'acceptez  est de créer un script qui permettra de bruteforcer mon application
-![Img](data/fezzik.jpg)
+
+![Img](fezzik.jpg)
+
 # Instructions:
 + vous devrez faire le HTML & le CSS
 + ainsi que le JQuery
