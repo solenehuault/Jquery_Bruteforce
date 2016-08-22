@@ -7,7 +7,6 @@ $.ajax({
 	}
 }).done(function() {
 
-//12650
 var position = psw.length;
 for (var i = 0; i < position ; i++) {
 	$.ajax({
